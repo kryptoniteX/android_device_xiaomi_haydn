@@ -19,6 +19,10 @@ TARGET_USES_AOSP_RECOVERY := true
 USE_PIXEL_CHARGER := true
 USE_GAPPS := true
 
+#SYBERIA
+SYBERIA_MAINTAINER := Puneet Gautam
+SYBERIA_BUILD_TYPE := OFFICIAL
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := syberia_haydn
 PRODUCT_DEVICE := haydn
