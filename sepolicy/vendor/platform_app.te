@@ -1,0 +1,23 @@
+allow platform_app vendor_hal_soter_hwservice:hwservice_manager find;
+binder_call(platform_app, vendor_hal_soter_qti)
+
+# Allow systemui to read vendor_sysfs_graphics
+allow platform_app vendor_sysfs_graphics:dir search;
+allow platform_app vendor_sysfs_graphics:file r_file_perms;
+
+# Dolby
+allow platform_app hal_dms_hwservice:hwservice_manager find;
+binder_call(platform_app, hal_dms_default)
+
+# Incremental
+get_prop(platform_app, incremental_prop);
+allow platform_app apk_data_file:file { ioctl };
+
+# Miui camera
+allow platform_app cgroup:file r_file_perms;
+
+# Audio
+get_prop(platform_app, audio_config_prop);
+
+# Face Unlock
+get_prop(platform_app, vendor_camera_prop)

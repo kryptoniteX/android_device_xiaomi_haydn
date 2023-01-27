@@ -1,0 +1,13 @@
+# Aware
+get_prop(system_app, vendor_aware_available_prop);
+
+# zram
+r_dir_file(system_app, sysfs_zram)
+
+# Pagetype info
+allow system_app proc_pagetypeinfo:file r_file_perms;
+
+# Incremental
+get_prop(system_app, incremental_prop);
+
+allow system_app apk_data_file:file { ioctl };

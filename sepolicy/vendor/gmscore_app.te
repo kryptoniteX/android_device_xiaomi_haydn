@@ -1,0 +1,3 @@
+# Incremental
+get_prop(gmscore_app, incremental_prop);
+allow gmscore_app apk_data_file:file { ioctl };

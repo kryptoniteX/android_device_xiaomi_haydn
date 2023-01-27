@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">Advanced settings</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="refresh_title">Refresh rate per-app</string>
+    <string name="refresh_summary">Set a specific refresh rate for each application</string>
+    <string name="refresh_default">Default</string>
+    <string name="refresh_standard">Standard (60Hz)</string>
+    <string name="refresh_extreme">Smooth (120Hz)</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Clear speaker</string>
+    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
+    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.\n\nWARNING: Ensure that any headphones are unplugged.</string>
+
+    <!-- High touch polling rate -->
+    <string name="high_touch_title">Touch latency</string>
+    <string name="high_touch_enable_title">High touch polling rate</string>
+    <string name="high_touch_enable_summary">Increase touchscreen polling rate</string>
+</resources>

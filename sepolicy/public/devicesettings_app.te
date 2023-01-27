@@ -1,0 +1,3 @@
+type devicesettings_app, domain;
+type sysfs_touchpanel, fs_type, sysfs_type;
+typeattribute devicesettings_app mlstrustedsubject;
