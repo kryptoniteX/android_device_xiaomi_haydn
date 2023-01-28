@@ -20,7 +20,7 @@ USE_PIXEL_CHARGER := true
 USE_GAPPS := true
 
 #ARROW
-ARROW_MAINTAINER := Puneet Gautam
+DEVICE_MAINTAINER := Puneet Gautam
 ARROW_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
@@ -31,3 +31,4 @@ PRODUCT_MODEL := Mi 11X Pro 5G
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_CHARACTERISTICS := nosdcard
