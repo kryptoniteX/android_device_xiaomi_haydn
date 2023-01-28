@@ -21,3 +21,7 @@ echo 'Cloning system logging [5/5]'
 rm -rf system/logging && git clone https://github.com/Astridxx/system_logging -b tiramisu system/logging
 
 echo 'delete vendorsetup.sh from device tree once this is done'
+
+rm -rf device/xiaomi/haydn/vendorsetup.sh
+
+echo 'DONE'
